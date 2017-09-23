@@ -12,6 +12,11 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [[menu.main]]
     name = "About"
     url = "/about/"
+	
+[[menu.main]]
+    name = "Blog"
+    url = "https://tonyduan.netlify.com/"	
+	
 [[menu.main]]
     name = "CV"
     url = "/CV/"

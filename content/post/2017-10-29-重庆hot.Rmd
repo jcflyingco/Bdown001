@@ -1,0 +1,26 @@
+---
+title: 重庆HOT
+author: Tony D
+date: '2017-10-29'
+slug: 重庆hot
+categories: []
+tags: []
+---
+
+<img src="/CQ1.jpg" alt="Drawing" style="width: 500px;"/>
+
+<img src="/CQ2.jpg" alt="Drawing" style="width: 500px;"/>
+
+
+Data from National Bureau of Statistics of China
+(http://data.stats.gov.cn/easyquery.htm?cn=C01)
+
+
+```{r}
+library(ggplot2)
+a=data.frame(year=c(2011,2012,2013, 2014, 2015),
+Chongqing_GPD_in_100M=c(10011,11409,12783, 14262, 15717))
+
+p <- ggplot(data=a)+geom_line(aes(x=year,y=Chongqing_GPD_in_100M))+geom_point(aes(x=year,y=Chongqing_GPD_in_100M))
+p
+```   

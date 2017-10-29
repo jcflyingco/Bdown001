@@ -19,6 +19,11 @@
 
 
 
+
+<link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
 <link rel="stylesheet" href="/css/fonts.css" media="all">
 <link rel="stylesheet" href="/css/main.css" media="all">
 
@@ -54,13 +59,27 @@
 
   <article class="article">
     
+    <span class="article-duration">1 min read</span>
+    
 
     <h1 class="article-title">重庆HOT</h1>
 
     
+    <span class="article-date">2017/10/29</span>
+    
 
     <div class="article-content">
-      
+      <p><img src="/CQ1.jpg" alt="Drawing" style="width: 500px;"/></p>
+<p><img src="/CQ2.jpg" alt="Drawing" style="width: 500px;"/></p>
+<p>Data from National Bureau of Statistics of China (<a href="http://data.stats.gov.cn/easyquery.htm?cn=C01" class="uri">http://data.stats.gov.cn/easyquery.htm?cn=C01</a>)</p>
+<pre class="r"><code>library(ggplot2)
+a=data.frame(year=c(2011,2012,2013, 2014, 2015),
+Chongqing_GPD_in_100M=c(10011,11409,12783, 14262, 15717))
+
+p &lt;- ggplot(data=a)+geom_line(aes(x=year,y=Chongqing_GPD_in_100M))+geom_point(aes(x=year,y=Chongqing_GPD_in_100M))
+p</code></pre>
+<p><img src="/post/2017-10-29-重庆hot_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+
     </div>
   </article>
 
@@ -82,6 +101,18 @@
 
     </div>
     
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
 
     
 

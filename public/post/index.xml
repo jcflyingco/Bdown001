@@ -6,10 +6,20 @@
     <description>Recent content in Posts on A Hugo website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Dec 2016 21:49:57 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 29 Oct 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>重庆HOT</title>
+      <link>/2017/10/29/%E9%87%8D%E5%BA%86hot/</link>
+      <pubDate>Sun, 29 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/10/29/%E9%87%8D%E5%BA%86hot/</guid>
+      <description>Data from National Bureau of Statistics of China (http://data.stats.gov.cn/easyquery.htm?cn=C01)
+library(ggplot2) a=data.frame(year=c(2011,2012,2013, 2014, 2015), Chongqing_GPD_in_100M=c(10011,11409,12783, 14262, 15717)) p &amp;lt;- ggplot(data=a)+geom_line(aes(x=year,y=Chongqing_GPD_in_100M))+geom_point(aes(x=year,y=Chongqing_GPD_in_100M)) p </description>
+    </item>
     
     <item>
       <title>A Plain Markdown Post</title>
